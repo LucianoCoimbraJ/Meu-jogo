@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Jogo MMORPG</title>
+    <link rel="stylesheet" href="css/base/styles.css">
+    <link rel="stylesheet" href="css/layout/layout.css">
+    <link rel="stylesheet" href="css/combat/combat.css">
+    <link rel="stylesheet" href="css/inventory/inventory.css">
+    <script src="js/core/main.js" defer></script>
+    <script src="js/inventory/inventory.js" defer></script>
+    <script src="js/combat/combat.js" defer></script>
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Bem-vindo ao Meu Jogo MMORPG</h1>
+        </header>
+        <main>
+            <div id="inventory" class="hidden"></div>
+            <div id="combat" class="hidden"></div>
+        </main>
+        <footer>
+            <button id="toggle-inventory">Abrir Inventário</button>
+            <button id="toggle-combat">Iniciar Combate</button>
+        </footer>
+    </div>
+</body>
+</html>

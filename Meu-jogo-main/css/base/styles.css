@@ -1,0 +1,17 @@
+/* css/base/styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.hidden {
+    display: none; /* Classe para ocultar elementos */
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2; /* Cor do título */
+}
